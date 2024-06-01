@@ -1,0 +1,28 @@
+{
+  "name": "@vincent/cypress-library",
+  "version": "0.0.1",
+  "description": "Library for cypress projects",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint":"npx eslint app/**/*.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentbarboza"
+  },
+  "author": "Vincent Barboza",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "cypress": "^13.10.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  }
+}

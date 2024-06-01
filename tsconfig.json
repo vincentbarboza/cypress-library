@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "outDir": "lib", 
+      "target": "es2020",
+      "module": "node16",
+      "noEmitOnError": true,
+      "noImplicitAny": true,
+      "strict": true
+  },
+  "include": ["src/**/*"]
+}
