@@ -35,4 +35,4 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: npm run eslint-cypress
+        run: npm run eslint
